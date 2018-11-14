@@ -1,0 +1,131 @@
+html, body {
+	font-family:verdana;
+	font-size:11px;
+	cursor:default;
+	margin:0;
+	padding:0;	
+}
+a:link, a:visited, a:active {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:link, a:visited, a:active, a:hover {
+	color:black;
+}
+td {
+	text-align:left;
+}
+#header {
+	background-image:url('img/awr-bg-1000.png');
+	background-repeat:no-repeat;
+}
+#tmp_special_chars {
+	visibility:hidden;
+}
+#container {
+	width:1050px;
+}
+#infos, #new_ranks {
+	text-align:left;
+}
+#new_ranks {
+	float:left;
+	width:450px;
+	overflow:hidden;
+	padding:0px;
+}
+#calculator {
+	margin-left:475px;
+}
+#data table, #steps table  {
+	width:100%;
+}
+#data, #steps, #infos, #new_ranks, .button, .noerr {
+	border:1px solid black;
+}
+#data, #steps, #infos {
+	padding:5px;
+}
+#container, #calculator {
+	border:0 none;
+}
+#result {
+	border:0 none;
+	border-collapse:collapse;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+#likes td {
+	text-align:left;
+	vertical-align:middle;
+}
+.important {
+	color:red;
+}
+.decale {
+	z-index:1;
+	position:absolute;
+	background-color:white;
+	border:1px solid black;
+	max-height:300px;
+	overflow:auto;
+	cursor:pointer;
+	margin-top:-2px;
+	margin-left:8px;
+}
+.selected {
+	background-color:#546ca8;
+	color:white;
+}
+.hover_select {
+
+}
+.hover_select:hover {
+	background-color:#546ca8;
+	color:white;
+}
+.field {
+	font-size:11px;
+	font-family:verdana;
+}
+.err {
+	border:1px solid red;
+}
+.int {
+	width:40px;
+}
+.char {
+	width:218px;
+}
+.subtitle {
+	font-size:12px;
+}
+.logo {
+	border:none;
+	vertical-align:middle;
+}
+.link {
+	cursor:pointer;
+}
+.button {
+	background-color:white;
+	font-size:11px;
+	font-family:verdana;
+}
+.tr_white {
+	background-color:white;
+}
+.tr_grey {
+	background-color:#f1f1f1;
+}
+.old_stat {
+	color:#777777;
+}
+.drop_shadow {
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
